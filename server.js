@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(cors());
 
-mongoose.connect("mongodb+srv://mje:mje@cluster0.vacarfa.mongodb.net/products");
+mongoose.connect("mongodb+srv://mje:mje@cluster0.zl4kexk.mongodb.net/products");
 
 const productSchema = new mongoose.Schema({
   category: String,
